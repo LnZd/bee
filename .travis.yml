@@ -3,6 +3,7 @@ go:
   - 1.11.x
 install:
   - export PATH=$PATH:$HOME/gopath/bin
+  - go get -u github.com/beego/bee
   - go get -u github.com/opennota/check/cmd/structcheck
   - go get -u honnef.co/go/tools/cmd/gosimple
   - go get -u honnef.co/go/tools/cmd/staticcheck
