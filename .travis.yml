@@ -1,6 +1,6 @@
 language: go
 go:
-  - 1.11.x
+  - 1.12.5
 install:
   - export PATH=$PATH:$HOME/gopath/bin
   - go get -u github.com/beego/bee
